@@ -7,7 +7,7 @@ class EmployeeTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
-        myEmployee = new Employee();
+        myEmployee = new Employee("Mark Johnson");
     }
 
     @Test
